@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder (if you use one)
+venv/
+.venv/
+env/
+.env/
+*/env/
+*/venv/
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Distribution / Build files (from PyInstaller)
+dist/
+build/
+*.spec
+
+# Local data/settings files (assuming they are created next to exe/script)
+# If get_app_data_dir() ALWAYS puts these elsewhere (like AppData),
+# you might not strictly need these lines here.
+qft_viewer_data/
+qft_database.db
+qft_settings.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
